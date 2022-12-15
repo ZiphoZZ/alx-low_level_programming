@@ -8,12 +8,11 @@
 
 int main(void)
 {
-	char letters[8] = "_putchar";
-	int i;
+	char *letters = "_putchar";
 
-	while (i <= 7)
+	while (*letters)
 	{
-		_putchar(letters[i]);
+		_putchar(*letters);
 		letters++;
 	}
 
