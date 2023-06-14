@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main - returns the name of the program among other functions
- * @argc: counts the number of arguments in the command line
- * @argv: array of string arguments to the command line.
- * Return: 1 if there is an error and 0 for success
+ * main - multiplies two numbers.
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line arguments.
+ * Return: 0 - success.
  */
-
 int main(int argc, char *argv[])
 {
 	if (argc != 3)
@@ -15,8 +13,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	int result = atoi(argv[1]) * atoi(argv[2]);
-
-	printf("%d\n", result);
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
