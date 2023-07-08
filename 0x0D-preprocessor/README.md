@@ -1,0 +1,1 @@
+In this section of study we look at the prepreocessor and it works. The preprocessor being the source that selects which code to be compliled and how that should be done before compilation using macros
